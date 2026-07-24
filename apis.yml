@@ -1,7 +1,24 @@
 aid: city-block
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/city-block.png
 name: City Block
-description: City Block is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cityblock Health is a value-based healthcare provider delivering integrated
+  primary care, behavioral health, and social-services support to Medicaid and lower-income
+  (dual-eligible) Medicare populations across multiple U.S. markets. Cityblock pairs
+  community-based care teams with a proprietary care-delivery technology platform to
+  coordinate wraparound care for historically underserved communities. The company
+  is backed by 8vc and added to the API Evangelist network as a portfolio profile;
+  it operates as a care provider and does not publish a public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/city-block/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Value-Based Care
+- Medicaid
+- Behavioral Health
+- Primary Care
+- Care Coordination
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/city-block-domain-security.yml
+- type: LLMsTxt
+  url: llms/city-block-llms.txt
 - type: Website
   url: https://cityblock.com
+- type: Blog
+  url: https://cityblockhealth.medium.com/
+- type: PrivacyPolicy
+  url: https://cityblock.com/privacy
+- type: TermsOfService
+  url: https://cityblock.com/terms-of-use
+- type: Compliance
+  url: https://cityblock.com/hipaa
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

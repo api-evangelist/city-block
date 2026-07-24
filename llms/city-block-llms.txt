@@ -1,0 +1,27 @@
+# Cityblock Health
+
+> Cityblock Health is a value-based healthcare provider delivering integrated primary care, behavioral health, and social-services support to Medicaid and lower-income (dual-eligible) Medicare populations across multiple U.S. markets. Cityblock pairs community-based care teams with a proprietary care-delivery technology platform to coordinate wraparound care for historically underserved communities. Backed by 8vc. Cityblock operates as a care provider and does not publish a public developer API surface.
+
+## Company
+- [Website](https://cityblock.com): Cityblock Health home
+- [Our approach](https://cityblock.com/approach): Care model overview
+- [About / Our story](https://cityblock.com/about): Company background
+- [For providers](https://cityblock.com/providers): Information for healthcare providers
+- [Partner with us](https://cityblock.com/partners): Business partnerships
+- [Careers](https://cityblock.com/careers): Open roles
+
+## Docs
+- [Blog (Medium)](https://cityblockhealth.medium.com/): Company blog and updates
+- [Press room](https://cityblock.com/media): News and media
+- [AI report](https://cityblock.com/ai-report): Cityblock AI report
+
+## Legal & Compliance
+- [Privacy policy](https://cityblock.com/privacy): Privacy practices
+- [HIPAA Notice of Privacy Practices](https://cityblock.com/hipaa): HIPAA notice
+- [Terms of use](https://cityblock.com/terms-of-use): Terms of service
+- [Non-discrimination notice](https://cityblock.com/non-discrimination): Non-discrimination policy
+- [Compliance reporting](https://cityblock.com/compliance-reporting): Compliance reporting
+
+## Notes
+- No public REST/GraphQL/OpenAPI, MCP server, SDKs, webhooks, or developer portal were found as of 2026-07-18.
+- Contact: 833-904-2273 (24/7).
